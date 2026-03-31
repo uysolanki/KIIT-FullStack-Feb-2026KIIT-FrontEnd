@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" defer src="./script2.js"></script>
+    <script>
+        function addy() {
+            const textBox1=document.querySelector('#t1')
+            const textBox2=document.querySelector('#t2')
+            // let n1 = parseInt(document.getElementById('t1').value);
+            // let n2 = parseInt(document.getElementById('t2').value);
+            textBox1.style.backgroundColor='red'
+            let n1 = parseInt(textBox1.value)
+            let n2 = parseInt(textBox2.value)
+            let n3=n1+n2
+            console.log(n3)
+        }
+    </script>
+</head>
+
+<body>
+    
+        <input type="text" id="t1" name="t1"><br>
+        <input type="text" id="t2" name="t2"><br>
+        <button onclick="addy()">ADD</button>
+
+        <p>Welcome</p>
+        <p>To</p>
+        <p>FSD</p>
+
+        <h1>Java script</h1>
+
+        <h1 class="south">CSK</h1>
+        <h1 class="south">RCB</h1>
+        <h1 class="north">DC</h1>
+        <h1 class="north">LSG</h1>
+
+   
+</body>
+
+</html>
