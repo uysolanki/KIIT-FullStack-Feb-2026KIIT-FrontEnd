@@ -12,7 +12,7 @@ const Navbar3 = () => {
         <>
         <ol id="menubar">
           {menus.map(
-            (menu)=><li onClick={()=>display(menu)}>{menu}</li>
+            (menu,index)=><li key={index} onClick={()=>display(menu)}>{menu}</li>
           )} 
         </ol> 
         </>

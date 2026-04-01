@@ -1,0 +1,40 @@
+/* Custom smooth transitions for the cards */
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Ensure images don't look distorted */
+.img-container {
+    background-color: #f8f9fa; /* Light grey background for product shots */
+    overflow: hidden;
+}
+
+.product-card .card-img-top {
+    transition: transform 0.5s ease;
+}
+
+.product-card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+/* Typography refinements */
+.card-title {
+    font-size: 1.1rem;
+    color: #212529;
+}
+
+.btn-dark {
+    letter-spacing: 0.5px;
+    transition: background-color 0.2s;
+}
+
+.btn-dark:hover {
+    background-color: #343a40;
+}
