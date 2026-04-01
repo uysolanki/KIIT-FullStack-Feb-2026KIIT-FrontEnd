@@ -6,12 +6,13 @@ import Counter1 from './components/Counter1'
 import ShowProducts from './components/ShowProducts'
 import ShowProducts1 from './components/ShowProducts1'
 import ShowProducts2 from './components/ShowProducts2'
+import ShowProducts3 from './components/ShowProducts3'
 
 const App = () => {
   return (
     <>
     <Navbar3/>
-    <ShowProducts2/>
+    <ShowProducts3/>
     </>
   )
 }

@@ -23,6 +23,16 @@ const ShowProducts2 = () => {
         }
     }
 
+    const productCategories=products.map(
+        (prod)=>prod.category
+    )
+    console.log(productCategories)
+
+    const uniqueCategories=new Set(productCategories)
+    console.log(uniqueCategories)
+
+    const allCategoreis=[...uniqueCategories,'All']
+    console.log(allCategoreis)
 
     return (
         <div className="container my-5">

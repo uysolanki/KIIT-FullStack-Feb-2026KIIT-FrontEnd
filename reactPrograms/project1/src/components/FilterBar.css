@@ -1,0 +1,10 @@
+.filterbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    background-color: yellow;
+}
+.filterbar li:hover{
+    background-color: orange;
+    cursor: pointer;
+}
