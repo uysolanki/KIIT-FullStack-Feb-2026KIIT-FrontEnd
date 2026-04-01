@@ -1,0 +1,10 @@
+#menubar{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    background-color: yellow;
+}
+#menubar li:hover{
+    background-color: orange;
+    cursor: pointer;
+}
